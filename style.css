@@ -4,6 +4,12 @@
   border-radius: 10px;
 }
 
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
 .ghost-block::before {
   display: block;
   content: "";
